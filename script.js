@@ -83,13 +83,13 @@ if (age === 18) console.log('You just became :D(strict)'); // always prefered
 if (age == 18) console.log('You just became :D(loose)'); // many specials rules
 */
 
-const money = Number(prompt("Cati bani ai?"));
+const money = Number(prompt("Ai destui bani? Cati ai?"));
 console.log(money);
 console.log(typeof money); 
 console.log(typeof Number(money));
 
 if (money > 100) {
-    window.location.replace("https://sterotren.com/produs/danabol-10mg/");
+    window.location.href = "https://sterotren.com/produs/danabol-10mg/";
 } else {
     alert("Mergi la furat boss!");
 }
